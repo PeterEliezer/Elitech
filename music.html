@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliTech - Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation - Replicate from index.html or create a component later -->
+    <nav class="navbar">
+        <div class="logo"><img src="elitechlogo.png" alt="EliTech Logo" class="logo-img"></div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#portfolio">My Projects</a></li>
+            <li><a href="index.html#news">News</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="music-page" class="music-page">
+        <h2>EliTech Music</h2>
+        <p>Explore and listen to the latest music from EliTech.</p>
+
+        <div class="music-player-container">
+            <audio id="audio-player" src="" controls></audio>
+            <div class="player-controls">
+                <button id="play-pause"><i class="fas fa-play"></i></button>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div class="playlist">
+                <!-- Music tracks will be added dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p>&copy; 2025 EliTech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="music.js"></script>
+    <script src="script.js"></script> <!-- Keep main script for burger menu and smooth scrolling -->
+</body>
+</html> 
